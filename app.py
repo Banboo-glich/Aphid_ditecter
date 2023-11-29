@@ -5,7 +5,8 @@ from PIL import Image
 import detect as detect
 
 
-
+st.set_page_config(page_title="AphidDetector",
+                   layout='wide')
 
 
 def train_models():
