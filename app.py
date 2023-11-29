@@ -40,7 +40,7 @@ def main():
         image = Image.open('1-G1-1028-13.jpg')
         st.image(image, caption='-pea aphid-')
 
-        st.title('Why this app ?')
+        st.header('Why this app ?')
 
         st.text('1.Instantly determining the age of the pea aphid from images can speed up research into development.')
         st.text('2.By applying this web application, accurate monitoring in the field becomes possible. This allows the field conditions to be accurately grasped, contributing to pest control.')
