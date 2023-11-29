@@ -35,8 +35,9 @@ def main():
     app_mode = st.sidebar.selectbox('Choose the App Mode', ['Introduction', 'Object Detection'])
     
     if app_mode == 'Introduction':
-        
-        st.title("How old is the pea aphid?")
+
+        st.title('Artificial intelligence to determine the age of young pea aphids')
+        st.header("How old is the pea aphid?")
         image = Image.open('1-G1-1028-13.jpg')
         st.image(image, caption='-pea aphid-')
 
