@@ -1,4 +1,4 @@
-# Aphid_ditecter
+# Aphid_ditecter👏
 Artificial intelligence webapp to identify the larvae of the pea aphid
 
 
